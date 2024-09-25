@@ -1,27 +1,21 @@
 [tool.poetry]
-name = "[INSERT-NAME]"
+name = "hw3"
 version = "0.1.0"
 description = ""
-authors = []
+authors = ["Tuneer Roy <53184517+tuneerroy@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-requests = "^2.32.3"
-beautifulsoup4 = "^4.12.3"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.13.2"
-flake8 = "^7.1.1"
 black = "^24.8.0"
+flake8 = "^7.1.1"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.black]
-line-length = 88
-
-[tool.isort]
-profile = "black"
-line_length = 88

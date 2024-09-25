@@ -1,9 +1,9 @@
-URL = "https://books.toscrape.com"
-
+import json
 
 import requests
 from bs4 import BeautifulSoup
-import json
+
+URL = "https://books.toscrape.com"
 
 
 def get_html_document(url):
